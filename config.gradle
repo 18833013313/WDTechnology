@@ -5,26 +5,26 @@ ext {
 
     android = [
             compileSdkVersion: 28,
-            applicationId    : "tech.wd.com.wdtechnology",
+            applicationId    : "com.wd.tech.wdtechnology",
             minSdkVersion    : 16,
             targetSdkVersion : 28,
             versionCode      : 100,
             versionName      : "1.0"
     ]
 
-    appId = ["app"             : "tech.wd.com.wdtechnology",
-             "module_message" : "tech.wd.com.module_message",
-             "module_information" : "tech.wd.com.module_information",
-             "module_community" : "tech.wd.com.module_community",
-             "module_message2" : "tech.wd.com.module_message2",
-             "module_mine" : "tech.wd.com.module_mine"
+    appId = ["app"             : "com.wd.tech.wdtechnology",
+             "module_message" : "com.wd.tech.module_message",
+             "module_information" : "com.wd.tech.module_information",
+             "module_community" : "com.wd.tech.module_community",
+             "module_message2" : "com.wd.tech.module_message2",
+             "module_mine" : "com.wd.tech.module_mine"
     ]
     /*"module-home": "com.example.kson.module_home",
     "module-push": "com.example.kson.module_push",
     "module-im": "com.example.kson.module_im",
     "module-video": "com.example.kson.module_video",*/
     def dependVersion = [
-            support : "27.1.1",
+            support : "28.0.0",
             multidex: "1.0.1",
             arouterCompile   : "1.2.2",
             arouter   : "1.4.1",

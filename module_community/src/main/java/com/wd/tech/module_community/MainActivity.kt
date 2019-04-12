@@ -1,7 +1,8 @@
-package tech.wd.com.module_information
+package com.wd.tech.module_community
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import tech.wd.com.module_community.R
 
 
 class MainActivity : AppCompatActivity() {
